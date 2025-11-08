@@ -9,7 +9,7 @@ export default function Navbar() {
         <a href="/" className="h-full flex justify-center items-center gap-2">
           <img src="/assets/logo.webp" className="h-10 sm:h-full w-auto" />
           <h1 className="text-xl sm:text-2xl sm:leading-6 font-semibold tracking-wider text-gray-800">
-            Aneka Kimia
+            Aneka Global
           </h1>
         </a>
         <div className="flex justify-center items-center">
