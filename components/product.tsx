@@ -4,7 +4,7 @@ export default function Products() {
       name: "Texapon",
       code: "TEXN-68",
       description:
-        "Sodium Lauryl Ether Sulfate (SLES) - Surfaktan anionik yang ampuh untuk formulasi deterjen, shampoo, dan produk pembersih industri.",
+        "Sodium Lauryl Ether Sulfate (SLES) - Biang sabun untuk mengangkat lemak atau zat yang memiliki sifat surfaktan. Dapat dijadikan detergent, shampoo, sabun, dan lain sebagainya",
       specifications: ["Konsentrasi: 25%, 28%", "pH: 7.0 - 7.5", "Kemampuan berbusa: Tinggi", "Kompatibilitas: Luas"],
       applications: "Detergent, Shampoo, Pembersih Industri, Produk Personal Care",
       image: "/assets/texapon.jpg",
@@ -13,7 +13,7 @@ export default function Products() {
       name: "Methanol",
       code: "MEOH-99",
       description:
-        "Methanol (CH₃OH) murni - Pelarut organik universal untuk industri kimia, farmasi, dan manufaktur dengan kemurnian tinggi.",
+        "Methanol (CH₃OH) murni - Bahan kimia serbaguna yang digunakan sebagai pelarut, antibeku, bahan bakar, dan bahan baku dalam produksi berbagai bahan kimia industri.",
       specifications: ["Kemurnian: 99.8%", "Densitas: 0.791 g/cm³", "Titik Didih: 64.7°C", "Stabilitas: Excellent"],
       applications: "Bahan Baku Kimia, Pelarut, Industri Farmasi, Produksi Biodiesel",
       image: "/assets/methanol.jpg",

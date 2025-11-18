@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 gap-8 items-end">
           <div>
-            <h3 className="font-serif text-xl font-bold mb-4">Aneka Global</h3>
+            <h3 className="font-serif text-xl font-bold mb-4">PT. Aneka Global Industri</h3>
             <p className="text-white/70 text-sm">
               Penyedia solusi kimia industri berkualitas tinggi untuk Indonesia.
             </p>

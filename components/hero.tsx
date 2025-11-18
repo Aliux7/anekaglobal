@@ -46,15 +46,15 @@ export default function Hero() {
             {/* Main Heading */}
             <h1 className="text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6 text-balance">
               <span className="bg-linear-to-r from-[#A6205A] via-[#D41E84] to-[#E85545] bg-clip-text text-transparent">
-                Solusi Kimia
+                Supplier
               </span>{" "}
-              Industri Terdepan
+              Bahan Kimia
             </h1>
 
             {/* Subheading */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl">
-              Kami menyediakan produk kimia berkualitas tinggi dengan standar
-              internasional. Dipercaya oleh industri di seluruh Indonesia.
+              Kami menyediakan produk kimia berkualitas tinggi seperti Texapon
+              SLES, Ethanol 70%, Ethanol 96%, dan Methanol.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -107,11 +107,11 @@ export default function Hero() {
 
               <div className="absolute grid grid-cols-3 gap-6 py-5 pt-15 text-center bottom-0 bg-linear-to-t w-full rounded-xl from-white/70 via-white/50 to-transparent">
                 <div>
-                  <div className="text-3xl font-bold text-[#A6205A]">1+</div>
+                  <div className="text-3xl font-bold text-[#A6205A]">5+</div>
                   <p className="text-sm text-gray-600">Tahun Pengalaman</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#D41E84]">50+</div>
+                  <div className="text-3xl font-bold text-[#D41E84]">100+</div>
                   <p className="text-sm text-gray-600">Klien Terpercaya</p>
                 </div>
                 <div>

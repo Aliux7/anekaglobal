@@ -2,23 +2,23 @@ export default function About() {
   const features = [
     {
       number: "01",
-      title: "Kualitas Terjamin",
+      title: "Siap Membantu",
       description:
-        "Semua produk kami telah melalui kontrol kualitas ketat sesuai standar internasional ISO.",
+        "Kami menyediakan konsultasi gratis untuk membantu Anda menemukan solusi terbaik sesuai kebutuhan Anda.",
       icon: "✓",
     },
     {
       number: "02",
-      title: "Pengiriman Cepat",
+      title: "Komitmen",
       description:
-        "Sistem logistik modern memastikan produk sampai tepat waktu ke seluruh nusantara.",
+        "Bagi kami, kepercayaan pelanggan adalah hal utama. Itulah sebabnya kami selalu memastikan pengiriman dilakukan tepat waktu.",
       icon: "→",
     },
     {
       number: "03",
-      title: "Dukungan Teknis",
+      title: "Kepuasa",
       description:
-        "Tim ahli kami siap membantu konsultasi teknis dan solusi terbaik untuk aplikasi Anda.",
+        "Kami senantiasa menjaga kualitas layanan demi memastikan kepuasan pelanggan tetap menjadi prioritas.",
       icon: "★",
     },
   ];
@@ -32,9 +32,10 @@ export default function About() {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-semibold mb-3">Tentang Kami</h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Aneka Global telah melayani industri kimia Indonesia selama lebih
-            dari satu tahun dengan komitmen terhadap kualitas, inovasi, dan
-            kepuasan pelanggan.
+            PT Aneka Global Industri telah berdiri sejak 2020 hingga saat ini.
+            Kami merupakan perusahaan supplier dan distributor yang menyediakan
+            berbagai jenis bahan kimia, seperti Texapon SLES, Ethanol 70%,
+            Ethanol 96%, Methanol, dan lainnya.
           </p>
         </div>
 
@@ -48,10 +49,10 @@ export default function About() {
           </div>
           <div>
             <h3 className="text-3xl font-serif font-bold mb-4 text-gray-900">
-              Pengalaman Selama 1 Tahun
+              Pengalaman Selama 5 Tahun
             </h3>
             <p className="text-gray-600 mb-4 leading-relaxed">
-              Sejak berdiri pada tahun 2024, Aneka Global telah tumbuh pesat
+              Sejak berdiri pada tahun 2020, Aneka Global telah tumbuh pesat
               sebagai salah satu penyedia solusi kimia terpercaya di Indonesia.
               Kami berkomitmen untuk menghadirkan produk berkualitas tinggi
               dengan pelayanan yang profesional dan harga yang kompetitif.
@@ -88,7 +89,7 @@ export default function About() {
             </div>
           </div>
         </div>
- 
+
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="product-card">
