@@ -27,7 +27,7 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <Link
-            href="https://api.whatsapp.com/send?phone=6285173378906"
+            href="https://api.whatsapp.com/send?phone=6281234523467"
             className="border rounded-lg p-8 border-gray-300 flex flex-col items-center text-center hover:shadow-xl transition-shadow"
           >
             <div

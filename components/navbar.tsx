@@ -38,7 +38,7 @@ export default function Navbar() {
           </ul>
           <a
             className="sm:ml-10 mr-5 lg:mr-0"
-            href="https://api.whatsapp.com/send?phone=6285173378906"
+            href="https://api.whatsapp.com/send?phone=6281234523467"
           >
             <li className="flex justify-center items-center sm:gap-3 border-y w-full  text-center py-2 lg:border-none lg:w-auto bg-linear-to-br hover:bg-linear-to-tl cursor-pointer transition-all duration-1000 ease-in-out from-[#971B77] to-[#E45340] px-5 sm:px-5 text-white rounded-md">
               <img src="/assets/call.png" className="w-4 h-4" />

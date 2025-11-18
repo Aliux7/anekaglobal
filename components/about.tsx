@@ -16,7 +16,7 @@ export default function About() {
     },
     {
       number: "03",
-      title: "Kepuasa",
+      title: "Kepuasan",
       description:
         "Kami senantiasa menjaga kualitas layanan demi memastikan kepuasan pelanggan tetap menjadi prioritas.",
       icon: "★",
@@ -26,7 +26,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="py-20 md:py-32 bg-linear-to-t from-white to-gray-100"
+      className="py-20 md:py-32 bg-transparent"
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
