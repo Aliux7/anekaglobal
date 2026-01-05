@@ -54,7 +54,7 @@ export default function Hero() {
             {/* Subheading */}
             <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-xl">
               Kami menyediakan produk kimia berkualitas tinggi seperti Texapon
-              SLES, Ethanol 70%, Ethanol 96%, dan Methanol.
+              SLES, Metil Ester Sulfonat (MES), dan Methanol.
             </p>
 
             <div className="flex flex-wrap gap-4">
