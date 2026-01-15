@@ -59,7 +59,7 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://api.whatsapp.com/send?phone=6281234523467"
+                href="https://api.whatsapp.com/send?phone=6285168618070"
                 className="px-8 py-4 bg-linear-to-r from-[#A6205A] to-[#D41E84] text-white font-semibold rounded-lg hover:shadow-2xl transition-all hover:-translate-y-1 flex items-center gap-2"
               >
                 Hubungi Kami
