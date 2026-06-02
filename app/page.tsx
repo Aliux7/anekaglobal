@@ -10,6 +10,7 @@ import Visi from "@/components/visi";
 import LocomotiveScroll from "locomotive-scroll";
 import { useEffect } from "react";
 
+
 export default function Home() {
   useEffect(() => {
     let locomotiveScroll: LocomotiveScroll;
