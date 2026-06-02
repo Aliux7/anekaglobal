@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer
       className="text-white border-t border-gray-200"
-      style={{ backgroundColor: "#A6205A" }}
+      style={{ backgroundColor: "#1d4ed8" }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-2 gap-8 items-end">

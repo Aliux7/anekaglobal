@@ -16,9 +16,9 @@ export default function Visi() {
     >
       {/* Background Soft Gradient */}
       <div className="absolute inset-0 bg-linear-to-br from-white via-gray-50 to-gray-100">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#A6205A]/20 to-[#D41E84]/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#1d4ed8]/20 to-[#0ea5e9]/20 rounded-full blur-3xl animate-pulse"></div>
         <div
-          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#D41E84]/20 to-[#E85545]/20 rounded-full blur-3xl animate-pulse"
+          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#0ea5e9]/20 to-[#16a34a]/20 rounded-full blur-3xl animate-pulse"
           style={{ animationDelay: "1s" }}
         ></div>
       </div>
@@ -33,7 +33,7 @@ export default function Visi() {
                 : "opacity-0 -translate-x-10"
             }`}
           >
-            <h2 className="text-5xl font-serif font-bold text-[#A6205A] mb-6">
+            <h2 className="text-5xl font-serif font-bold text-[#1d4ed8] mb-6">
               Visi Kami
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
@@ -51,7 +51,7 @@ export default function Visi() {
                 : "opacity-0 translate-x-10"
             }`}
           >
-            <h2 className="text-5xl font-serif font-bold text-[#D41E84] mb-6">
+            <h2 className="text-5xl font-serif font-bold text-[#0ea5e9] mb-6">
               Misi Kami
             </h2>
             <ul className="space-y-4 text-gray-700 text-lg leading-relaxed">

@@ -27,14 +27,14 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           <Link
-            href="https://api.whatsapp.com/send?phone=6285168618070"
+            href="https://api.whatsapp.com/send?phone=6285169665542"
             className="border rounded-lg p-8 border-gray-300 flex flex-col items-center text-center hover:shadow-xl transition-shadow"
           >
             <div
               className="w-16 h-16 rounded-lg flex items-center justify-center mb-4"
-              style={{ backgroundColor: "#E855451a" }}
+              style={{ backgroundColor: "#16a34a1a" }}
             >
-              <Phone className="w-8 h-8" style={{ color: "#E85545" }} />
+              <Phone className="w-8 h-8" style={{ color: "#16a34a" }} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Telepon</h3>
             <p className="text-gray-600">0812-3452-3467</p>
@@ -43,9 +43,9 @@ export default function Contact() {
           <div className="border rounded-lg p-8 border-gray-300 flex flex-col items-center text-center hover:shadow-xl transition-shadow">
             <div
               className="w-16 h-16 rounded-lg flex items-center justify-center mb-4"
-              style={{ backgroundColor: "#A6205A1a" }}
+              style={{ backgroundColor: "#1d4ed81a" }}
             >
-              <MapPin className="w-8 h-8" style={{ color: "#A6205A" }} />
+              <MapPin className="w-8 h-8" style={{ color: "#1d4ed8" }} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Alamat</h3>
             <p className="text-gray-600">

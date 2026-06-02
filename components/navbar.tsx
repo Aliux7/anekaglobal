@@ -38,9 +38,9 @@ export default function Navbar() {
           </ul>
           <a
             className="sm:ml-10 mr-5 lg:mr-0"
-            href="https://api.whatsapp.com/send?phone=6285168618070"
+            href="https://api.whatsapp.com/send?phone=6285169665542"
           >
-            <li className="flex justify-center items-center sm:gap-3 border-y w-full  text-center py-2 lg:border-none lg:w-auto bg-linear-to-br hover:bg-linear-to-tl cursor-pointer transition-all duration-1000 ease-in-out from-[#971B77] to-[#E45340] px-5 sm:px-5 text-white rounded-md">
+            <li className="flex justify-center items-center sm:gap-3 border-y w-full  text-center py-2 lg:border-none lg:w-auto bg-linear-to-br hover:bg-linear-to-tl cursor-pointer transition-all duration-1000 ease-in-out from-[#1d4ed8] to-[#16a34a] px-5 sm:px-5 text-white rounded-md">
               <img src="/assets/call.png" className="w-4 h-4" />
               <span className="text-0 hidden sm:block sm:text-base">Hubungi Kami</span>
             </li>
@@ -49,9 +49,9 @@ export default function Navbar() {
             id="hamburger"
             className="lg:hidden w-7 sm:w-8 h-full flex flex-col justify-center items-end gap-1.5"
           >
-            <span className="h-[0.17rem] sm:h-1 w-full bg-[#971B77] rounded-md"></span>
-            <span className="h-[0.17rem] sm:h-1 w-3/4 bg-[#E45340] rounded-md"></span>
-            <span className="h-[0.17rem] sm:h-1 w-full bg-[#971B77] rounded-md"></span>
+            <span className="h-[0.17rem] sm:h-1 w-full bg-[#1d4ed8] rounded-md"></span>
+            <span className="h-[0.17rem] sm:h-1 w-3/4 bg-[#16a34a] rounded-md"></span>
+            <span className="h-[0.17rem] sm:h-1 w-full bg-[#1d4ed8] rounded-md"></span>
           </div>
         </div>
       </nav>

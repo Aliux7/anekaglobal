@@ -16,13 +16,13 @@ export default function Hero() {
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-32 lg:pt-10 px-3 sm:px-5 xl:px-0"
     >
       <div className="absolute inset-0 bg-linear-to-br from-white via-gray-50 to-gray-100">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#A6205A]/20 to-[#D41E84]/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#1d4ed8]/20 to-[#0ea5e9]/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
         <div
-          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#D41E84]/20 to-[#E85545]/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"
+          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#0ea5e9]/20 to-[#16a34a]/20 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"
           style={{ animationDelay: "1s" }}
         ></div>
         <div
-          className="absolute top-1/2 right-0 w-80 h-80 bg-linear-to-br from-[#E85545]/15 to-[#A6205A]/15 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"
+          className="absolute top-1/2 right-0 w-80 h-80 bg-linear-to-br from-[#16a34a]/15 to-[#1d4ed8]/15 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"
           style={{ animationDelay: "2s" }}
         ></div>
       </div>
@@ -36,8 +36,8 @@ export default function Hero() {
                 : "opacity-0 -translate-x-10"
             }`}
           >
-            <div className="inline-flex items-center gap-2 bg-[#D41E84]/10 text-[#A6205A] px-4 py-2 rounded-full">
-              <span className="w-2 h-2 bg-[#D41E84] rounded-full"></span>
+            <div className="inline-flex items-center gap-2 bg-[#0ea5e9]/10 text-[#1d4ed8] px-4 py-2 rounded-full">
+              <span className="w-2 h-2 bg-[#0ea5e9] rounded-full"></span>
               <span className="text-sm font-semibold">
                 Terdepan dalam Industri Kimia
               </span>
@@ -45,7 +45,7 @@ export default function Hero() {
 
             {/* Main Heading */}
             <h1 className="text-6xl lg:text-7xl font-serif font-bold leading-tight mb-6 text-balance">
-              <span className="bg-linear-to-r from-[#A6205A] via-[#D41E84] to-[#E85545] bg-clip-text text-transparent">
+              <span className="bg-linear-to-r from-[#1d4ed8] via-[#0ea5e9] to-[#16a34a] bg-clip-text text-transparent">
                 Supplier
               </span>{" "}
               Bahan Kimia
@@ -59,8 +59,8 @@ export default function Hero() {
 
             <div className="flex flex-wrap gap-4">
               <Link
-                href="https://api.whatsapp.com/send?phone=6285168618070"
-                className="px-8 py-4 bg-linear-to-r from-[#A6205A] to-[#D41E84] text-white font-semibold rounded-lg hover:shadow-2xl transition-all hover:-translate-y-1 flex items-center gap-2"
+                href="https://api.whatsapp.com/send?phone=6285169665542"
+                className="px-8 py-4 bg-linear-to-r from-[#1d4ed8] to-[#0ea5e9] text-white font-semibold rounded-lg hover:shadow-2xl transition-all hover:-translate-y-1 flex items-center gap-2"
               >
                 Hubungi Kami
                 <svg
@@ -79,7 +79,7 @@ export default function Hero() {
               </Link>
               <Link
                 href="#product"
-                className="px-8 py-4 border-2 border-[#A6205A] text-[#A6205A] font-semibold rounded-lg hover:bg-[#A6205A]/5 transition-all"
+                className="px-8 py-4 border-2 border-[#1d4ed8] text-[#1d4ed8] font-semibold rounded-lg hover:bg-[#1d4ed8]/5 transition-all"
               >
                 Lihat Produk
               </Link>
@@ -94,41 +94,41 @@ export default function Hero() {
             }`}
           >
             <div className="relative z-10 flex flex-col justify-center items-end">
-              <div className="absolute -inset-4 bg-linear-to-br from-[#A6205A]/20 via-[#D41E84]/20 to-[#E85545]/20 rounded-2xl blur-2xl"></div>
+              <div className="absolute -inset-4 bg-linear-to-br from-[#1d4ed8]/20 via-[#0ea5e9]/20 to-[#16a34a]/20 rounded-2xl blur-2xl"></div>
 
-              <div className="relative w-full h-[70vh] bg-linear-to-br from-[#A6205A] to-[#D41E84] rounded-xl shadow-2xl overflow-hidden">
+              <div className="relative w-full h-[70vh] bg-linear-to-br from-[#1d4ed8] to-[#0ea5e9] rounded-xl shadow-2xl overflow-hidden">
                 <img
                   src="/assets/4.jpg"
                   alt="Laboratorium Kimia Modern"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-linear-to-t from-[#A6205A]/20 to-transparent"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-[#1d4ed8]/20 to-transparent"></div>
               </div>
 
               <div className="absolute grid grid-cols-3 gap-6 py-5 pt-15 text-center bottom-0 bg-linear-to-t w-full rounded-xl from-white/70 via-white/50 to-transparent">
                 <div>
-                  <div className="text-3xl font-bold text-[#A6205A]">5+</div>
+                  <div className="text-3xl font-bold text-[#1d4ed8]">5+</div>
                   <p className="text-sm text-gray-600">Tahun Pengalaman</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#D41E84]">100+</div>
+                  <div className="text-3xl font-bold text-[#0ea5e9]">100+</div>
                   <p className="text-sm text-gray-600">Klien Terpercaya</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-[#E85545]">100%</div>
+                  <div className="text-3xl font-bold text-[#16a34a]">100%</div>
                   <p className="text-sm text-gray-600">Kualitas Terjamin</p>
                 </div>
               </div>
             </div>
 
-            <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-linear-to-br from-[#E85545]/30 to-[#D41E84]/30 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
+            <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-linear-to-br from-[#16a34a]/30 to-[#0ea5e9]/30 rounded-full mix-blend-multiply filter blur-xl animate-pulse"></div>
           </div>
         </div>
       </div>
 
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 animate-bounce">
         <svg
-          className="w-6 h-6 text-[#A6205A]"
+          className="w-6 h-6 text-[#1d4ed8]"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

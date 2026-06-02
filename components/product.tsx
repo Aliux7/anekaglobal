@@ -68,7 +68,7 @@ export default function Products() {
             <div
               key={index}
               className="p-8 hover:shadow-lg rounded-lg border-l-4 overflow-hidden"
-              style={{ borderLeftColor: "#D41E84" }}
+              style={{ borderLeftColor: "#0ea5e9" }}
             >
               <div className="mb-6 overflow-hidden rounded-lg h-64">
                 <img
@@ -81,7 +81,7 @@ export default function Products() {
               <div className="mb-4">
                 <span
                   className="text-sm font-mono"
-                  style={{ color: "#D41E84" }}
+                  style={{ color: "#0ea5e9" }}
                 >
                   {product.code}
                 </span>
@@ -101,7 +101,7 @@ export default function Products() {
                       key={idx}
                       className="text-sm text-gray-600 flex items-start"
                     >
-                      <span className="mr-2" style={{ color: "#E85545" }}>
+                      <span className="mr-2" style={{ color: "#16a34a" }}>
                         •
                       </span>
                       <span>{spec}</span>
@@ -118,7 +118,7 @@ export default function Products() {
                       key={idx}
                       className="text-sm text-gray-600 flex items-start"
                     >
-                      <span className="mr-2" style={{ color: "#E85545" }}>
+                      <span className="mr-2" style={{ color: "#16a34a" }}>
                         •
                       </span>
                       <span>{spec}</span>

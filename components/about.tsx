@@ -66,14 +66,14 @@ export default function About() {
               <div className="flex items-center">
                 <div
                   className="w-2 h-2 rounded-full mr-3"
-                  style={{ backgroundColor: "#D41E84" }}
+                  style={{ backgroundColor: "#0ea5e9" }}
                 ></div>
                 <span className="text-gray-700">Bersertifikasi</span>
               </div>
               <div className="flex items-center">
                 <div
                   className="w-2 h-2 rounded-full mr-3"
-                  style={{ backgroundColor: "#D41E84" }}
+                  style={{ backgroundColor: "#0ea5e9" }}
                 ></div>
                 <span className="text-gray-700">
                   Beroperasi di 1 cabang utama di Indonesia
@@ -82,7 +82,7 @@ export default function About() {
               <div className="flex items-center">
                 <div
                   className="w-2 h-2 rounded-full mr-3"
-                  style={{ backgroundColor: "#D41E84" }}
+                  style={{ backgroundColor: "#0ea5e9" }}
                 ></div>
                 <span className="text-gray-700">Ratusan pelanggan puas</span>
               </div>
@@ -95,7 +95,7 @@ export default function About() {
             <div key={index} className="product-card">
               <div
                 className="text-5xl font-serif font-bold mb-4"
-                style={{ color: "#E85545" }}
+                style={{ color: "#16a34a" }}
               >
                 {feature.number}
               </div>

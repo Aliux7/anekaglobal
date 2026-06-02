@@ -13,9 +13,9 @@ export default function Gallery() {
     >
       {/* Background Soft Gradient */}
       <div className="absolute inset-0 bg-linear-to-br from-white via-gray-50 to-gray-100">
-        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#A6205A]/20 to-[#D41E84]/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-linear-to-br from-[#1d4ed8]/20 to-[#0ea5e9]/20 rounded-full blur-3xl animate-pulse"></div>
         <div
-          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#D41E84]/20 to-[#E85545]/20 rounded-full blur-3xl animate-pulse"
+          className="absolute bottom-0 right-1/4 w-96 h-96 bg-linear-to-br from-[#0ea5e9]/20 to-[#16a34a]/20 rounded-full blur-3xl animate-pulse"
           style={{ animationDelay: "1s" }}
         ></div>
       </div> 
