@@ -37,7 +37,7 @@ export default function Contact() {
               <Phone className="w-8 h-8" style={{ color: "#16a34a" }} />
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">Telepon</h3>
-            <p className="text-gray-600">0812-3452-3467</p>
+            <p className="text-gray-600">0851-6966-5542</p>
             <p className="text-gray-600">Hubungi Kami</p>
           </Link> 
           <div className="border rounded-lg p-8 border-gray-300 flex flex-col items-center text-center hover:shadow-xl transition-shadow">
